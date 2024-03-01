@@ -1,0 +1,103 @@
+/*#00BFFF = DeepSkyBlue
+  #368BC1 = Glacial Blue Ice*/
+* {
+  font-family: "open sans", sans serif;
+}
+
+/*Page Info*/
+main {
+  background-color: rgba(54, 139, 193, 0.3);
+  border-radius: 16px;
+
+  /* tried to shienk with page, insteas manually giving siz; failed*/
+  width: 200px;
+  text-align: center;
+  flex-basis: 200px;
+
+  /*Manually giving position; sadisfy to some degree*/
+  min-height: 50vh;
+  padding: 8px 84px 2px;
+  margin: 5% -37% -28% 37%;
+}
+
+/*Button decor*/
+.myButton {
+  box-shadow: 0px 10px 14px -7px #00bfff;
+  background: linear-gradient(to bottom, #368bc1 5%, #408c99 100%);
+  background-color: #368bc1;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #00bfff;
+  margin-top: 25px;
+  /*display: flex;
+  flex-basis: 10px;
+  margin-top: 100px;
+  margin-left: 100px;*/
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #368bc1 5%, #599bb3 100%);
+  background-color: #368bc1;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/*Nav bar settings*/
+header {
+  background-color: rgba(54, 139, 193, 0.5);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+/*For links to stay the same regardless if used*/
+header a:active {
+  color: none;
+}
+
+header a:visited {
+  text-decoration: none;
+  color: none;
+}
+
+/*Nav's links and info*/
+.name {
+  font-size: 40px;
+  padding: 0;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+a {
+  font-size: 25px;
+}
+
+button {
+  color: black;
+}
+
+/*Had second thoughts of having a background. You can turn it off or on */
+
+body {
+  background-image: url("./Images/SIMPLE-BLUE-BACKGROUND.jpg");
+     
+
+    background-image:linear gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("background3.jpg");
+    height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}*/
