@@ -88,16 +88,31 @@ button {
   color: black;
 }
 
+input {
+  margin-bottom: 5px;
+}
+#info {
+  margin: 10px;
+}
+textarea {
+  width: 205px;
+}
 /*Had second thoughts of having a background. You can turn it off or on */
 
 body {
   background-image: url("./Images/SIMPLE-BLUE-BACKGROUND.jpg");
-     
 
-    background-image:linear gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("background3.jpg");
-    height: 100vh;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}*/
+  background-image: linear gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("background3.jpg");
+  height: 100vh;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
